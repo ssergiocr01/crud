@@ -12,7 +12,7 @@ function App() {
       return;
     }
 
-    const newTask = {
+    const newTask = { 
       id: shortid.generate(),
       name: task,
     };
